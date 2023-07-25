@@ -7,6 +7,7 @@
     - username: postgres (default)
     - password: db > enviroment > POSTGRES_PASSWORD
 ## Setup
-
-> docker network create gisnet
-> docker compose up
+* Create network for docker
+    > docker network create gisnet
+* Run docker compose
+    > docker compose up
